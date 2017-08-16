@@ -1,0 +1,5 @@
+# IDEA project metafiles
+.idea
+
+# Python bytecode
+*.pyc

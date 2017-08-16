@@ -1,6 +1,4 @@
-# Miranda
-Miranda sub-Project of Uranus...
-
+Miranda sub-Project
 
 [About]
 
@@ -18,3 +16,4 @@ DEPENDENCIES
     python2.7
 [pip]
     cv2
+
