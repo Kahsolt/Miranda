@@ -1,20 +1,8 @@
 # Miranda
 Miranda sub-Project of Uranus...
+A face-detect based regitering module
 
-
-[About]
-
-
-[Installation]
-
-
-[Configuration]
-
-
-[Other]
-
-DEPENDENCIES
-[apt/yum]
-    python2.7
-[pip]
-    cv2
+[run]
+  cd Miranda
+  python2 server.py
+  python2 client.py
