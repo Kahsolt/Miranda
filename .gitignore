@@ -3,3 +3,8 @@
 
 # Python bytecode
 Miranda/*.pyc
+Miranda/__pycache__
+
+# photos
+lib/*.jpg
+tmp/*.jpg

@@ -23,8 +23,9 @@ def post_id(id):
         return None
 
     try:
-        resp = requests.get(SEND_URL, data={'stuNum': id})
+        resp = requests.get(SEND_URL, params={'stuNum': id})
         print '[Messager] send id %s, and resp is "%s"' % (id, resp.content)
         return True
     except:
         return False
+
