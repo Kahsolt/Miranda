@@ -200,7 +200,7 @@ def update_mode():
     mode = messager.get_mode()
     if mode and mode != MODE:
         MODE = mode
-        print '[Mode] server require changing mode to %d' % mode
+        print '[Mode] server require changing mode to ' + mode
 
     global mode_updater
     mode_updater = threading.Timer(POLLING_INTERVAL, update_mode)

@@ -14,12 +14,12 @@ app = Flask(__name__)
 
 MODE = MODE_NORMAL
 
-@app.route("/mode/<int:mode>")
+@app.route("/mode/<string:mode>")
 def mode(mode):
     global MODE
-    if mode in [1, 2, 3]:
+    if mode in [MODE_NORMAL, MODE_IDEL, MODE_COLLECT]:
         MODE = mode
-    return '%d' % MODE
+    return MODE
 
 
 @app.route("/id/<string:id>")

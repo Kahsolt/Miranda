@@ -14,16 +14,18 @@ TMP_PATH = os.path.join(MIRANDA_BASE, 'tmp')
 
 # Server Urls
 SERVER_BASE = 'http://localhost:5000'
-SEND_URL = SERVER_BASE + '/id/'
+#SEND_URL = SERVER_BASE + '/teacher/signIn/input'
+#MODE_URL = SERVER_BASE + '/teahcer/signIn/state'
+SEND_URL = SERVER_BASE + '/id'
 MODE_URL = SERVER_BASE + '/mode/0'
 
 # Window GUI configs
 WINDOW_WIDTH = 1366
 
 # Mode Consts
-MODE_IDEL = 1
-MODE_NORMAL = 2
-MODE_COLLECT = 3
+MODE_IDEL = 'free'
+MODE_NORMAL = 'signIn'
+MODE_COLLECT = 'enter'
 
 # Miranda behavior configs
 POLLING_INTERVAL = 5
