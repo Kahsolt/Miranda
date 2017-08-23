@@ -12,18 +12,18 @@ RES_PATH = os.path.join(MIRANDA_BASE, 'res')
 PHOTO_PATH = os.path.join(MIRANDA_BASE, 'lib')
 TMP_PATH = os.path.join(MIRANDA_BASE, 'tmp')
 
-# Server Urls
-SERVER_BASE = 'http://localhost:5000'
+# Server urls
+SERVER_BASE = 'http://219.224.166.2:8011'
 SEND_URL = SERVER_BASE + '/teacher/signIn/input'
-MODE_URL = SERVER_BASE + '/teahcer/signIn/state'
+MODE_URL = SERVER_BASE + '/teacher/signIn/state'
 
 # Window GUI configs
 WINDOW_WIDTH = 1366
 
-# Mode Consts
+# Mode consts defined by server
 MODE_IDEL = 'free'
 MODE_NORMAL = 'signIn'
-MODE_COLLECT = 'enter'
+MODE_COLLECT = 'record'
 
 # Miranda behavior configs
 POLLING_INTERVAL = 5

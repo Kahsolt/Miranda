@@ -70,6 +70,7 @@ def find_webcam():
 def mode_idle():
     global MODE
     print '[Mode] Switching to mode Idle'
+    sys.exit(-1)
 
     while MODE == MODE_IDEL:
         time.sleep(WEBCAM_SENSITIVITY)
@@ -213,10 +214,12 @@ def update_mode():
     global MODE
 
     mode = messager.get_mode()
-    # print '[Mode] mode get is ' + mode
     if mode and mode != MODE:
-        MODE = mode
-        print '[Mode] server require changing mode to ' + mode
+        if mode not in [MODE_IDEL, MODE_NORMAL, MODE_COLLECT]:
+            print '[Mode] Unknown sever requirement: ' + mode
+        else:
+            MODE = mode
+            print '[Mode] Server require changing mode to: ' + mode
 
     global mode_updater
     mode_updater = threading.Timer(POLLING_INTERVAL, update_mode)
