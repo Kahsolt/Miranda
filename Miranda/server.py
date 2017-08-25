@@ -11,7 +11,6 @@ from flask import Flask, request, redirect, url_for
 from Miranda.settings import *
 
 app = Flask(__name__)
-
 MODE = MODE_NORMAL
 
 

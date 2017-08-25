@@ -1,7 +1,0 @@
-[apt/yum]
-    python2.7
-    python-opencv
-
-[pip]
-    requests
-    flask

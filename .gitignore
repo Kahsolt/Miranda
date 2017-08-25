@@ -5,6 +5,10 @@
 Miranda/*.pyc
 Miranda/__pycache__
 
-# photos
-lib/*.jpg
-tmp/*.jpg
+# runtime data (photos & logs)
+Miranda/data/lib/*.jpg
+Miranda/data/tmp/*.jpg
+Miranda/data/log/*.log
+
+# Make up a dist-env for windows platforms :(
+win
