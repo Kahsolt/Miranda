@@ -1,9 +1,1 @@
-2017-08-25 18:07:10,892 <client.py:240> INFO: [Sys] Starting up...
-2017-08-25 18:07:49,144 <client.py:240> INFO: [Sys] Starting up...
-2017-08-25 18:07:49,533 <client.py:111> INFO: [Mode] Switching to mode Idle
-2017-08-25 18:07:54,536 <connectionpool.py:207> DEBUG: Starting new HTTP connection (1): 219.224.166.2
-2017-08-25 18:07:54,979 <connectionpool.py:395> DEBUG: http://219.224.166.2:8011 "GET /teacher/signIn/state HTTP/1.1" 200 6
-2017-08-25 18:07:54,980 <client.py:226> INFO: [Mode] Server require changing mode to: signIn
-2017-08-25 18:07:54,999 <client.py:150> INFO: [Mode] Switching to mode Normal
-2017-08-25 18:07:57,684 <client.py:187> INFO: [Sys] Shutting down...
-2017-08-25 18:08:01,600 <client.py:246> INFO: [Sys] Bye.
+

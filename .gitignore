@@ -11,4 +11,4 @@ Miranda/data/tmp/*.jpg
 Miranda/data/log/*.log
 
 # Make up a dist-env for windows platforms :(
-win
+Miranda-win
