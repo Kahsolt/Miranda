@@ -1,9 +1,9 @@
 # IDEA project metafiles
-.idea
+.idea/
 
 # Python bytecode
-Miranda/*.pyc
-Miranda/__pycache__
+*.pyc
+__pycache__
 
 # runtime data (photos & logs)
 Miranda/data/lib/*.jpg
@@ -11,4 +11,4 @@ Miranda/data/tmp/*.jpg
 Miranda/data/log/*.log
 
 # Make up a dist-env for windows platforms :(
-Miranda-win
+*.7z
